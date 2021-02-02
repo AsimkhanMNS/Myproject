@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Ubuntu:wght@500;700&display=swap');
+* {
+    font-family: sans-serif, 'ubuntu';
+    font-weight: 600;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(151, 211, 252);
+    padding: 5px 0px;
+}
+
+nav .logo {
+    width: 200px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 400px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 40px;
+}
+
+nav ul {
+    margin-top: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.home {
+    background: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat center;
+    height: 120vh;
+    background-size: cover;
+}
+
+.home h1 {
+    margin-left: 100px;
+    padding-top: 450px;
+    font-family: 'sans-serif', 'ubuntu';
+    color: white;
+    font-size: 50px;
+}
+
+.home h1 span {
+    color: lightskyblue;
+    font-family: 'Redressed', cursive;
+}
+
+.home h3 {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'sans-serif', 'ubuntu';
+    color: lightskyblue;
+}
+
+.home a {
+    margin-left: 100px;
+    text-decoration: none;
+    background: lightskyblue;
+    border-radius: 1px 10px;
+    padding: 10px 40px;
+    color: whitesmoke;
+}
+
+.home a:hover {
+    color: black;
+}
+
+.about h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif, 'ubuntu';
+    color: black;
+    font-weight: 600;
+    border-bottom: 5px solid lightskyblue;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.ab img {
+    width: 400px;
+    height: 380px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    border: lightskyblue 3px solid;
+}
+
+.ab p {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.ab small {
+    color: rgb(72, 183, 252);
+    padding-left: 500px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+}
+
+.ab h5 {
+    padding-left: 480px;
+    font-style: italic;
+}
+
+.ab .font::first-letter {
+    color: lightskyblue;
+    font-size: xx-large;
+    font-family: 'Redressed', cursive;
+}
+
+.skills h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: sans-serif, 'ubuntu';
+    color: black;
+    font-weight: 600;
+    border-bottom: 5px solid lightskyblue;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'Staatliches', cursive;
+    margin-left: 60px;
+    text-shadow: 1px 3px lightskyblue;
+}
+
+.pro {
+    margin-left: 50px;
+}
+
+.contact h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: sans-serif, 'ubuntu';
+    color: black;
+    font-weight: 600;
+    border-bottom: 5px solid lightskyblue;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.ad p {
+    margin-left: 80px;
+    font-family: 'Redressed', cursive;
+    font-size: 20px;
+}
+
+.ph p {
+    font-family: 'Redressed', cursive;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.em p {
+    font-family: 'Redressed', cursive;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: black;
+    font-family: sans-serif, 'ubuntu';
+    margin-left: 60px;
+    text-shadow: 1px 2px lightskyblue;
+    position: relative;
+}
+
+.h4::before {
+    content: '';
+    position: absolute;
+    margin-top: 35px;
+    width: 100px;
+    height: 5px;
+    background-color: lightskyblue;
+    padding-right: 30px;
+    border-radius: 20px 20px;
+}
+
+.form label {
+    margin-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-family: 'Redressed', cursive;
+    text-transform: capitalize;
+    text-shadow: 1px 3px lightskyblue;
+}
+
+.form input {
+    margin-left: 60px;
+    font-family: 'Redressed', cursive;
+    color: black;
+    padding-right: 200px;
+    outline: none;
+}
+
+input:focus {
+    background-color: rgb(213, 235, 255);
+    outline: none;
+}
+
+.form textarea {
+    margin-left: 60px;
+    font-family: 'Redressed', cursive;
+    color: black;
+    outline: none;
+    resize: none;
+    padding-right: 200px;
+}
+
+textarea:focus {
+    background-color: rgb(213, 235, 255);
+    outline: none;
+}
+
+.form button {
+    margin-left: 60px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    outline: none;
+    color: black;
+    background-color: lightskyblue;
+    box-shadow: none;
+    border: lightskyblue;
+    margin-bottom: 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+footer {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: sans-serif, 'ubuntu';
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer span {
+    font-family: 'Redressed', cursive;
+}
+
+
+/* RESPONSIVE  */
+
+@media screen and (max-width:960px) {
+    .ab img {
+        border: lightskyblue 3px solid;
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .ab p {
+        padding-top: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .ab h5 {
+        padding-left: 160px;
+        font-style: italic;
+    }
+    .ab small {
+        color: rgb(72, 183, 252);
+        padding-left: 160px;
+        letter-spacing: 1px;
+        font-size: 20px;
+        font-family: 'Redressed', cursive;
+    }
+    .about h3 {
+        text-align: center;
+        margin-top: 10px;
+        font-family: sans-serif, 'ubuntu';
+        color: black;
+        font-weight: 600;
+        border-bottom: 5px solid lightskyblue;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+    .skills h3 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family: sans-serif, 'ubuntu';
+        color: black;
+        font-weight: 600;
+        border-bottom: 5px solid lightskyblue;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+    .form input {
+        margin-left: 60px;
+        font-family: 'Redressed', cursive;
+        color: black;
+        padding-right: 100px;
+        outline: none;
+    }
+    .form textarea {
+        margin-left: 60px;
+        font-family: 'Redressed', cursive;
+        color: black;
+        outline: none;
+        resize: none;
+        padding-right: 50px;
+    }
+    .pro {
+        margin-right: 30px;
+    }
+    .home h1 {
+        margin-left: 10px;
+        padding-top: 450px;
+        font-family: 'sans-serif', 'ubuntu';
+        color: white;
+        font-size: 50px;
+    }
+    .home h3 {
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-family: 'sans-serif', 'ubuntu';
+        color: lightskyblue;
+    }
+    .home a {
+        margin-left: 10px;
+        text-decoration: none;
+        background: lightskyblue;
+        border-radius: 1px 10px;
+        padding: 10px 40px;
+        color: whitesmoke;
+    }
+    .form input {
+        border: 1px solid black;
+    }
+    .form textarea {
+        border: 1px solid black;
+    }
+    nav .logo {
+        width: 150px;
+        height: 50px;
+        margin-top: 15px;
+        cursor: pointer;
+        margin-right: -10px;
+    }
+    nav ul li {
+        padding: 0px 10px;
+        margin-right: 5px;
+        position: relative;
+    }
+    nav ul {
+        margin-right: -5px;
+        margin-top: 20px;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+}
